@@ -18,6 +18,8 @@ public class Movie {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String name;
-    private String description;
+    private String title;
+    private String summary;
+    private Double rating;
+    private Integer releaseYear;
 }
