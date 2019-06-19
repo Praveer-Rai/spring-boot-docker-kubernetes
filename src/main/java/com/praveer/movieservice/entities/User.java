@@ -15,20 +15,18 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-public class Movie {
+public class User {
  
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private String title;
+    private String email;
 
-    private String summary;
+    private String password;
 
-    private Double rating;
+    private String firstName;
 
-    private Integer releaseYear;
-
-    private User createdBy;
+    private String lastName; 
 
 }
