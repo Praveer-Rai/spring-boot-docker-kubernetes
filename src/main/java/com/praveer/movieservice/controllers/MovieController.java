@@ -1,6 +1,5 @@
 package com.praveer.movieservice.controllers;
 
-import java.util.Collections;
 import java.util.List;
 
 import com.praveer.movieservice.entities.Movie;
