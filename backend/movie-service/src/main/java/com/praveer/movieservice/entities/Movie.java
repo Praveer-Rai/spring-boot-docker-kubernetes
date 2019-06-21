@@ -29,6 +29,6 @@ public class Movie {
 
     private Integer releaseYear;
 
-    private User createdBy;
+    // private User createdBy;
 
 }
