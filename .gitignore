@@ -1,7 +1,7 @@
 HELP.md
-.gradle
-build/
-bin/
+backend/movie-service/.gradle
+backend/movie-service/build/
+backend/movie-service/bin/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
@@ -16,11 +16,11 @@ bin/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
+backend/movie-service/.idea
+backend/movie-service/*.iws
+backend/movie-service/*.iml
+backend/movie-service/*.ipr
+backend/movie-service/out/
 
 ### NetBeans ###
 /nbproject/private/
@@ -30,4 +30,4 @@ out/
 /.nb-gradle/
 
 ### VS Code ###
-.vscode/
+backend/movie-service/.vscode/
